@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "33352965049",
+    "project_id": "agence-location",
+    "storage_bucket": "agence-location.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:33352965049:android:731eb53ddff0fffdbb3468",
+        "android_client_info": {
+          "package_name": "com.example.agence_location"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "33352965049-4mn2qbu1homi7hnnhef7v4f61adk3mue.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyC9n-4wu0uoDCPRKjn8-XTvf28h6li4VLk"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "33352965049-4mn2qbu1homi7hnnhef7v4f61adk3mue.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
