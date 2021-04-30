@@ -12,14 +12,11 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:fontFamily="sans-serif-black"
-        android:text="Location Voiture"
-        android:textSize="24dp" />
-    <TextView
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:fontFamily="sans-serif-black"
-        android:text="www.locationvoiture.com"
-        android:textSize="14dp" />
+        android:text="car rental"
+        android:textStyle="bold|italic"
+        android:textSize="60dp" />
+
+
 
 
 </LinearLayout>

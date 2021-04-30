@@ -32,6 +32,7 @@ public class UpdateDataEmp extends AppCompatActivity {
 
 
         Intent intent = getIntent();
+       id=intent.getStringExtra("id");
 
         namep=intent.getStringExtra("name");
         phonep=intent.getStringExtra("phone");

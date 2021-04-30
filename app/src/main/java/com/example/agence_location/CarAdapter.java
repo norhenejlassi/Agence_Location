@@ -42,11 +42,11 @@ public class CarAdapter extends RecyclerView.Adapter<CarAdapter.MyViewHolder>{
 
 
         holder.emMatricule.setText(carData.getMatricule());
-        holder.emStyle.setText(carData.getStyle());
+
         holder.emMark.setText(carData.getMarque());
         holder.emFuel.setText(carData.getCorburant());
-        holder.emModel.setText(carData.getModel());
-        holder.emColor.setText(carData.getCouleurs());
+
+
         holder.emPrice.setText(carData.getPrix());
 
 
@@ -66,11 +66,10 @@ public class CarAdapter extends RecyclerView.Adapter<CarAdapter.MyViewHolder>{
                 Intent ic = new Intent(v.getContext(),UpdateDataCar.class);
                 ic.putExtra("id",carData.getVid());
                 ic.putExtra("car number",carData.getMatricule());
-                ic.putExtra("style",carData.getStyle());
+
                 ic.putExtra("mark",carData.getMarque());
                 ic.putExtra("fuel",carData.getCorburant());
-                ic.putExtra("model",carData.getModel());
-                ic.putExtra("color",carData.getCouleurs());
+
                 ic.putExtra("price",carData.getPrix());
 
                 v.getContext().startActivity(ic);

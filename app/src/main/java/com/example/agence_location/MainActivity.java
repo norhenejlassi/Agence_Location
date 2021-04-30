@@ -56,7 +56,7 @@ public class MainActivity extends AppCompatActivity {
                                         startActivity(in);
                                     }*/
                                   /* if (type.equals("client")) {
-                                           Intent in = new Intent(MainActivity.this,  AcceuilEmp.class);
+                                           Intent in = new Intent(MainActivity.this,  AccueilEmployer.class);
                                       startActivity(in);
                                    }*/
                                    if (type.equals("admin")) {
@@ -67,6 +67,11 @@ public class MainActivity extends AppCompatActivity {
                                         Intent in = new Intent(MainActivity.this, AccueilEmployer.class);
                                         startActivity(in);
                                     }
+                                    if (type.equals("fournisseur")) {
+                                        Intent inf = new Intent(MainActivity.this, AccueilFourni.class);
+                                        startActivity(inf);
+                                    }
+
                                 }
                                 @Override
                                 public void onCancelled(@NonNull DatabaseError error) {

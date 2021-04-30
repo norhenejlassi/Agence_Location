@@ -1,5 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
     package="com.example.agence_location">
 
     <application
@@ -9,20 +10,36 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/Theme.Agence_Location">
-        <activity android:name=".UpdateDataEmp"></activity>
+        <activity android:name=".GestionVoitureVendre"></activity>
+        <activity
+            android:name=".AccueilFourni"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity android:name=".SignupActivity">
+            >
+        </activity>
+        <activity android:name=".RetreiveDataAd" />
+        <activity android:name=".UpdateProfile" />
+        <activity android:name=".UpdateDatacl" />
+        <activity android:name=".RetreiveDataCl" />
+        <activity android:name=".GestionClient" />
+        <activity android:name=".UpdateDataEmp" />
         <activity android:name=".UpdateDataCar" />
         <activity android:name=".RetreiveDataCar" />
         <activity android:name=".GestionVoiture" />
-        <activity android:name=".AccueilEmployer" android:theme="@style/AppTheme.NoActionBar"/>
-
+        <activity
+            android:name=".AccueilEmployer"
+            android:theme="@style/AppTheme.NoActionBar" />
         <activity android:name=".header" />
         <activity android:name=".RetreiveDataEmp" />
         <activity android:name=".GestionEmployer" />
         <activity android:name=".UpdateData" />
         <activity android:name=".RetreiveData" />
         <activity android:name=".GestionFournisseur" />
-        <activity android:name=".AccueilAdmin"  android:theme="@style/AppTheme.NoActionBar"/>
-        <activity android:name=".SignupActivity">
+        <activity
+            android:name=".AccueilAdmin"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity android:name=".SignupActivity"
+            tools:ignore="DuplicateActivity">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 

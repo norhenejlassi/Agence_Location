@@ -33,7 +33,7 @@ public class UpdateDataCar extends AppCompatActivity {
         btnUpdateCar = findViewById(R.id.btnUpdateCar);
 
         Intent intent = getIntent();
-
+        Vid=intent.getStringExtra("id");
         matricule=intent.getStringExtra("car number");
         style=intent.getStringExtra("style");
         mark=intent.getStringExtra("mark");

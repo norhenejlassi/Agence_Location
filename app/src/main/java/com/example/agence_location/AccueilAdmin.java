@@ -113,6 +113,10 @@ public class AccueilAdmin extends AppCompatActivity implements NavigationView.On
                 Intent ine = new Intent(AccueilAdmin.this,GestionEmployer.class);
                 startActivity(ine);
                 break;
+            case R.id.nav_profile:
+                Intent inp = new Intent(AccueilAdmin.this,RetreiveDataAd.class);
+                startActivity(inp);
+                break;
             case R.id.nav_logout:
                 Logout();
                 break;

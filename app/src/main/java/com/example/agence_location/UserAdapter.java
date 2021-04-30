@@ -28,8 +28,8 @@ import java.util.ArrayList;
 public class UserAdapter extends RecyclerView.Adapter<UserAdapter.MyViewHolder>{
     private Context context;
     private ArrayList<Users> userData;
-    public  UserAdapter(Context c,ArrayList<Users> userData){
-        this.context = c;
+    public  UserAdapter(Context context,ArrayList<Users> userData){
+        this.context = context;
         this.userData = userData;
     }
 
@@ -45,8 +45,8 @@ public class UserAdapter extends RecyclerView.Adapter<UserAdapter.MyViewHolder>{
     public void onBindViewHolder(@NonNull MyViewHolder holder, int position) {
 
 
-        Users userData = this.userData.get(position);
-        FirebaseDatabase firebaseDatabase=FirebaseDatabase.getInstance();
+         final   Users userData = this.userData.get(position);
+        //FirebaseDatabase firebaseDatabase=FirebaseDatabase.getInstance();
 
             holder.fournName.setText(userData.getName());
             holder.fournPhone.setText(userData.getPhoneNumber());
@@ -82,9 +82,6 @@ public class UserAdapter extends RecyclerView.Adapter<UserAdapter.MyViewHolder>{
 
 
             }
-
-
-
 
 
     @Override
